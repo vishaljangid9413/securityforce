@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+requests = "*"
+pillow = "*"
+djangorestframework = "*"
+django-environ = "*"
+psycopg2 = "*"
+django-otp = "*"
+django-phonenumber-field = {extras = ["phonenumbers"], version = "*"}
+qrcode = "*"
+pyotp = "*"
+django-filter = "*"
+psycopg2-binary = "*"
+djangorestframework-jwt = "*"
+django-allauth = "*"
+gunicorn = "*"
+dj-rest-auth = "*"
+djangorestframework-simplejwt = "*"
+django-mptt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

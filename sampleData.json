@@ -1,0 +1,82 @@
+[
+    // SAMPLE DATA FOR GETTING OTP
+    { 
+        "userid":"8989565623" 
+    },
+    // SAMPLE DATA FOR LOGIN
+    { 
+        "userid":"9680450598",
+        "otp":"301373"
+    },
+    // SAMPLE DATA FOR REGISTRATION
+    { 
+        "first_name":"asd",
+        "last_name":"raat", 
+        "email":"asdraat@gmail.com",
+        "mobile":"5252636356",
+        "password":"password321"
+    },
+    {
+        "otp":"705756"
+    },
+    // SAMPLE DATA FOR ADDING BUSINESS 
+    {
+        "name":"my business",
+        "registration_number":"123654789654",
+        "address":"business-address",
+        "longitude":"21.1256",
+        "latitude":"24.12563",
+        "is_agency":"True",        
+        "phone":"8696724136",
+        "email":"business@example.com"
+    },
+    // SAMPLE DATA FOR ADDING FIELDOFFICER
+    {
+        "user_id":"1231231231/rakesh@gmail.com",
+        "manager_id":"25cf88e8-214f-4fdf-acd1-c6ed4c7de1c7",
+        "shift_id":"3",
+        "role":"manager",
+        "first_name":"rakesh",
+        "last_name":"roshan",
+        "email":"rakesh@gmail.com",
+        "mobile":"1231231231"
+    },
+{
+"started_date": "2024-12-12",
+"end_date": "2025-12-12",
+"is_active": "True",
+"new_client_data": {
+"name": "my business1",
+"registration_number": "123654789600",
+"address": "business-address1",
+"longitude":21.1256,
+"latitude": 24.12563,
+"is_agency": "True",        
+"phone": "9638529639",
+"email": "business1@example.com"
+},
+"admin_details": {
+"first_name":"new_client",
+"last_name":"admin", 
+"email":"new_client_admin@gmail.com",
+"mobile":"9874563589",
+"password":"password321"
+}
+    },
+
+    {
+        "site_data" : {
+            "name": "Office Site",
+            "business": business_instance,  # Replace with an actual Business instance
+            "geo_code": Point(x=12.34, y=56.78),
+            "area": Polygon.from_bbox((12.33, 56.77, 12.35, 56.79)),
+            "address": "123 Main St",
+            "location": location_instance,  # Replace with an actual Location instance
+            "is_active": True,
+            "rounds": 2,
+            "shift": "day",
+            "schedule": "weekly",
+            "floors": 3
+        }
+    }
+]

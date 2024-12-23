@@ -1,0 +1,11 @@
+// TODO For registering the business
+{
+    "name": "my business3",
+    "registration_number": "1136547897654",
+    "address": "business-address",
+    "longitude": 21.1256,
+    "latitude": 24.12563,
+    "is_agency": "True",
+    "phone": "8696724134",
+    "email": "business2@example.com"
+},
